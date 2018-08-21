@@ -1,0 +1,440 @@
+    1  yaourt --help
+    2  yaourt -Q google-chrome
+    3  yaourt --stats
+    4  yaourt -S google-chrome
+    5  curl https://www.google.com
+    6  curl http://www.google.com
+    7  cd ~/
+    8  ls
+    9  cd .config/
+   10  ls
+   11  cd google-chrome/
+   12  ls
+   13  cd ..
+   14  ls
+   15  cd dconf/
+   16  ls
+   17  vi user 
+   18  cd user 
+   19  l
+   20  ls
+   21  vi user 
+   22  cd ..
+   23  ls
+   24  cd dmenu-recent/
+   25  ls
+   26  vi background 
+   27  vi terminal 
+   28  vi background 
+   29  vi terminal 
+   30  ls
+   31  vi terminal_hold 
+   32  arandr
+   33  cd ~
+   34  ls
+   35  ls -la
+   36  history
+   37  vi .cnofig/autostart
+   38  ls
+   39  ls -la
+   40  cd .config/
+   41  ls
+   42  cd autostart/
+   43  ls
+   44  vi Screen.desktop
+   45  vi Screen.desktop 
+   46  vi .config/
+   47  vi .config/compton.conf 
+   48  systemctl hibernate
+   49  vi .i3/config 
+   50  vi .i3/config 
+   51  history
+   52  vi .i3/config 
+   53  git
+   54  ls
+   55  vi ~/.bashrc
+   56  vi .bash_profile 
+   57  l
+   58  source .bash_profile 
+   59  l
+   60  git init
+   61  git status
+   62  vi .gitignore
+   63  git status
+   64  l
+   65  vi .gitignore 
+   66  vi .gitignore 
+   67  vi .gi
+   68  vi .gi
+   69  vi .gitignore 
+   70  vi .gitignore 
+   71  vi .gitignore
+   72  git status
+   73  vi .cache/
+   74  git add .config/
+   75  git status
+   76  git reset .config/
+   77  git status
+   78  git add .i3/config 
+   79  git status
+   80  git commit -m "Initial Commit of i3 config"
+   81  git conifg --global tiffanylee32@gmail.com
+   82  git config --global tiffanylee32@gmail.com
+   83  git config --global user.email tiffanylee32@gmail.com
+   84  git config --global user.name tiffany
+   85  git status
+   86  git commit -m "Initial Commit of i3 config"
+   87  git status
+   88  git status
+   89  git status
+   90  git add .bash_profile 
+   91  git add .bashrc 
+   92  git status
+   93  git commit-m "chore"
+   94  git commit -m "chore"
+   95  git log
+   96  git commit --amend -m "Initial commit of bashrc and bash profile"
+   97  git status
+   98  git log
+   99  git status
+  100  git status
+  101  clera
+  102  clear
+  103  clear
+  104  ls
+  105  l
+  106  source ~/.bash_profile 
+  107  l
+  108  neofetch
+  109  vi /etc/X11/xorg.conf.d/
+  110  cd /etc/X11/xorg.conf.d/
+  111  ls
+  112  vi 30-touchpad.conf 
+  113  sudo vi 30-touchpad.conf 
+  114  sudo service lightdm restart
+  115  systemctl hibernate
+  116  xinput disable X
+  117  xinput --help
+  118  xinput --list
+  119  vi 30-touchpad.conf 
+  120  systemctl restart
+  121  systemctl --help
+  122  systemctl reboot
+  123  vi changes.txt 
+  124  l
+  125  l
+  126  source ~/.bash_profile
+  127  l
+  128  vi .i3/config 
+  129  vim .i3/config 
+  130  vim .config/
+  131  vim .i3/config 
+  132  git status
+  133  history
+  134  vi changes.txt
+  135  vim changes.txt 
+  136  vim changes.txt 
+  137  vi .i3/config 
+  138  vi ~/.bash_profile 
+  139  vi ~/.bashrc
+  140  vi ~/.bashrc
+  141  git diff
+  142  vi .xmodmaprc
+  143  git status
+  144  systmctl hibernate
+  145  systemctl hibernate
+  146  l
+  147  cd .config/
+  148  l
+  149  git status
+  150  ..
+  151  cd ..
+  152  vim .bashrc 
+  153  vi .xmodmaprc 
+  154  xmodmap ~/.xmodmaprc 
+  155  git status
+  156  git add .modmaprc
+  157  git status
+  158  git add .xmodmaprc 
+  159  git status
+  160  vi .i3/config 
+  161  vim .i3/config 
+  162  git diff .i3/
+  163  vim .i3/config 
+  164  l
+  165  vim changes.txt 
+  166  git status
+  167  history
+  168  history | xmodmap
+  169  history | grep xmodmap
+  170  l
+  171  ls
+  172  mv changes.txt Documents/
+  173  l
+  174  ls
+  175  l
+  176  vim startup.sh
+  177  vi .i3/config 
+  178  vim .i3/config 
+  179  invo
+  180  info
+  181  vim .i3/config 
+  182  vi .config/compton.conf 
+  183  vim .config/compton.conf 
+  184  compton --help
+  185  compton --config ~/.config/compton.conf 
+  186  pkill compton && compton
+  187  vi ~/.config/compton.conf 
+  188  vim ~/.config/compton.conf 
+  189  pkill compton && compton &
+  190  vi ~/.config/compton.conf 
+  191  vim ~/.config/compton.conf 
+  192  pkill compton && compton &
+  193  pkill compton && compton
+  194  pkill compton
+  195  compton
+  196  vi ~/.config/compton.conf 
+  197  vim ~/.config/compton.conf 
+  198  compton
+  199  vi ~/.config/compton.conf 
+  200  compton
+  201  compton &
+  202  feh
+  203  systemctl suspend
+  204  vi ~/.bashrc
+  205  git status
+  206  sleep
+  207  sleep --help
+  208  vi ~/.bashrc 
+  209  suspend
+  210  top
+  211  top
+  212  clear
+  213  history | grep yaourt
+  214  yaourt -S feh
+  215  feh --help
+  216  clear
+  217  feh ~/Downloads/summer_2.png 
+  218  feh --bg-scale ~/Downloads/summer_2.png 
+  219  vim .i3/config 
+  220  clear
+  221  vim .Xresources
+  222  echo $TERM
+  223  vim .Xresources
+  224  git status
+  225  git add .Xresources 
+  226  git status
+  227  git status
+  228  git add .Xresources 
+  229  vim .gitignore 
+  230  git add .Xresources 
+  231  git status
+  232  git commit -m "Initial Commits to Xresources and xmodmaprc (changed command key to be control so that i could use the command key for chrome""
+  233  git commit -m "Initial Commits to Xresources and xmodmaprc (changed command key to be control so that i could use the command key for chrome"
+  234  git status
+  235  git dff
+  236  git diff
+  237  clear
+  238  yaourt ttf-ubuntu-font-family
+  239  yaourt --help
+  240  yaourt -S ttf-ubuntu-font-family
+  241  vim .Xresources 
+  242  xrdb ~/.Xresources 
+  243  vi ~/.Xresources 
+  244  history
+  245  history 242
+  246  history 
+  247  xrdb ~/.Xresources 
+  248  vi ~/.Xresources 
+  249  xrdb ~/.Xresources 
+  250  vi .Xresources
+  251  vim .Xresources 
+  252  xrdb ~/.Xresources 
+  253  vi ~/.Xresources 
+  254  vim ~/.Xresources 
+  255  xrdb ~/.Xresources 
+  256  vim ~/.Xresources 
+  257  xrdb ~/.Xresources 
+  258  vim .Xresources 
+  259  xrdb ~/.Xresources 
+  260  history
+  261  history | grep yaourt
+  262  fc-list -v
+  263  vim .Xresources 
+  264  fc-list -v
+  265  xrdb ~/.Xresources 
+  266  vim .Xresources 
+  267  xrdb ~/.Xresources 
+  268  vim .Xresources 
+  269  xrdb ~/.Xresources 
+  270  vim .Xresources 
+  271  xrdb ~/.Xresources 
+  272  vim .Xresources 
+  273  xrdb ~/.Xresources 
+  274  vim .Xresources 
+  275  vim .Xresources 
+  276  xrdb ~/.Xresources 
+  277  vim .Xresources 
+  278  xrdb ~/.Xresources 
+  279  vim .Xresources 
+  280  xrdb ~/.Xresources 
+  281  vim .Xresources 
+  282  xrdb ~/.Xresources 
+  283  vim .Xresources 
+  284  xrdb ~/.Xresources 
+  285  vim .Xresources 
+  286  xrdb ~/.Xresources 
+  287  vim .Xresources 
+  288  xrdb ~/.Xresources 
+  289  l
+  290  vim .Xresources 
+  291  vim .Xresources 
+  292  xrdb ~/.Xresources 
+  293  clear
+  294  vim .Xresources 
+  295  vim .Xresources 
+  296  vim .Xresources 
+  297  l
+  298  l
+  299  vim .Xresources 
+  300  git status
+  301  vim .Xresources 
+  302  xrdb ~/.Xresources 
+  303  history
+  304  yaourt -S polybar
+  305  clear
+  306  vim .i3/config 
+  307  vi ~/Documents/changes.txt 
+  308  clear
+  309  vim .i3/config 
+  310  clear
+  311  vim .i3/config 
+  312  vim .i3/config 
+  313  clear
+  314  systemctl reboot
+  315  l
+  316  vim .Xresources 
+  317  xrdb ~/.Xresources 
+  318  l
+  319  cd Downloads/
+  320  pwd
+  321  ls
+  322  ..
+  323  l Pictures/
+  324  history | grep feh
+  325  ls
+  326  mv Downloads/summer_2.png Pictures/
+  327  vi .i3/config 
+  328  vim .i3/config 
+  329  vim .i3/config 
+  330  feh --bg-scale ~/Pictures/summer_2.png 
+  331  clear
+  332  polybar --help
+  333  l .config/
+  334  l
+  335  clear
+  336  clear
+  337  vi ~/Documents/changes.txt 
+  338  vim ~/Documents/changes.txt 
+  339  vi .i3/config 
+  340  vim .i3/config 
+  341  vim .i3/config 
+  342  cd /usr/share/conky/
+  343  ls
+  344  vim /usr/bin/start_conky_grey
+  345  sudo vim /usr/bin/start_conky_grey
+  346  killall conky
+  347  conky
+  348  systemctl hibernate
+  349  l
+  350  cd .config/
+  351  l
+  352  ..
+  353  l
+  354  vim .autorandr/
+  355  autoandr
+  356  xrandr
+  357  arandr
+  358  vi Documents/changes.txt 
+  359  arandr
+  360  vi .i3/config 
+  361  vim .i3/config 
+  362  cd config
+  363  arandr
+  364  vim .config/
+  365  comptom
+  366  compton
+  367  vim .i3/config 
+  368  systemctl reboot
+  369  arandr
+  370  vim .i3/config 
+  371  git diff .i3/config 
+  372  nitrogen
+  373  systemctl reboot
+  374  vi /usr/share/doc/polybar/config 
+  375  vim .i3/config 
+  376  pwd
+  377  history | grep conky
+  378  sudo vim /usr/bin/start_conky_maia 
+  379  install -Dm644 /usr/share/doc/polybar/config $HOME/.config/polybar/config
+  380  polybar example
+  381  polybar
+  382  yaourt --help
+  383  yaourt -R polybar
+  384  polybar
+  385  yaourt polybar-git
+  386  yaourt -S polybar-git
+  387  polybar example
+  388  vim .i3/config 
+  389  systemctl suspend
+  390   vim .i3/config 
+  391  vim .i3/con
+  392  vim .i3/config 
+  393  git status
+  394  git status
+  395  clear
+  396  systemctlr reboot
+  397  systemctl reboot
+  398  arandr
+  399  nitrogen
+  400  git remote add origin git@github.com:tlee32/dotfiles.git
+  401  git push -u origin master
+  402  ssh key-gen
+  403  ssh-keygen -t rsa -b 4096 -C "tlee32@berkeley.edu"
+  404  cat /home/tiffany/.ssh/id_rsa.pub 
+  405  git push -u origin master
+  406  git status
+  407  git diff
+  408  git status
+  409  git diff .Xresources 
+  410  git add .Xresources 
+  411  git status
+  412  git commit -m "[Update] .Xresources: change terminal colors to succulent theme"
+  413  git status
+  414  git diff .bash_profile 
+  415  git diff .bashrc 
+  416  vim .bashrc
+  417  git add .bashrc
+  418  gti add .bash_profile 
+  419  git add .bash_profile 
+  420  git status
+  421  git commit -m "[Update] .bashrc: .., ..., l"
+  422  git status
+  423  git diff .i3/config 
+  424  git add .i3/config 
+  425  git commit -m "[Update] .i3/config: i3 bar at the top, smaller gaps, change command key to be control key"
+  426  git status
+  427  git push origin master
+  428  rm .fehbg
+  429  git status
+  430  l .config/
+  431  l
+  432  git status
+  433  cd .vim
+  434  ls
+  435  l
+  436  ..
+  437  l
+  438  git status
+  439  history
+  440  history > history.txt
