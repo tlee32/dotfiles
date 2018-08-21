@@ -61,7 +61,7 @@ bindsym $mod+F3 exec pcmanfm
 # bindsym $mod+F3 exec ranger
 bindsym $mod+Shift+F3 exec gksu pcmanfm
 bindsym $mod+F5 exec terminal -e 'mocp'
-bindsym $mod+t exec --no-startup-id pkill compton
+#bindsym $mod+t exec --no-startup-id pkill compton
 bindsym $mod+Ctrl+t exec --no-startup-id compton -b
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
 bindsym Print exec --no-startup-id i3-scrot
@@ -69,6 +69,7 @@ bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
 bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Shift+h exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
+
 
 # focus_follows_mouse no
 
@@ -286,6 +287,10 @@ exec --no-startup-id xautolock -time 10 -locker blurlock
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 
+# TL START UP SCRIPTS:
+exec --no-startup-id xmodmap ~/.xmodmaprc
+exec --no-startup-id exec --no-startup-id i3-msg 'workspace 1:Terminal; exec terminal; workspace 2:Web; exec /usr/bin/google-chrome-stable; workspace 1'
+
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
 # https://i3wm.org/docs/userguide.html#xresources
@@ -321,7 +326,7 @@ set_from_resource $term_color15    color15
 bar {
 	i3bar_command i3bar
 	status_command i3status
-	position bottom
+	position top
 
 ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
 #	tray_output primary
@@ -364,8 +369,8 @@ bindsym $mod+m bar mode toggle
 #############################
 
 # Set inner/outer gaps
-gaps inner 14
-gaps outer -2
+gaps inner 5
+#gaps outer -2
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
 # gaps inner|outer current|all set|plus|minus <px>
