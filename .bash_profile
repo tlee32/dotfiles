@@ -3,4 +3,3 @@
 #
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
-alias l="ls -la"
