@@ -1,21 +1,28 @@
+!TL
+*.internalBorder:	13
+
+
 Xft.dpi:       96
 Xft.antialias: true
 Xft.hinting:   true
 Xft.rgba:      rgb
 Xft.autohint:  false
-Xft.hintstyle: hintslight
+!Xft.hintstyle: hintslight
+Xft.hintstyle: hintfull
 Xft.lcdfilter: lcddefault
 
-XTerm*background:        #222D31
-XTerm*foreground:        #d8d8d8
+!XTerm*background:        #222D31
+!XTerm*foreground:        #d8d8d8
 XTerm*pointerColor:      #1ABB9B
 XTerm*faceName:          Fixed
 XTerm*faceSize:          11
 XTerm*reverseVideo:      on
 XTerm*selectToClipboard: true
 
-*background:                      #222D31
-*foreground:                      #d8d8d8
+!*background:                      #222D31
+!*.background:                      #0b2545
+!*foreground:                      #d8d8d8
+!*.foreground:                      #8aeff4
 *fading:                          8
 *fadeColor:                       black
 *cursorColor:                     #1ABB9B
@@ -23,24 +30,34 @@ XTerm*selectToClipboard: true
 *pointerColorForeground:          #16A085
 
 !! black dark/light
-*color0:                          #222D31
-*color8:                          #585858
+!*color0:                          #222D31
+*color0:                          #5959af
+*color8:                          #333399
+!*color8:                          #585858
 
 !! red dark/light
-*color1:                          #ab4642
-*color9:                          #ab4642
+*color1:                          #7575c6
+!*color1:                          #ab4642
+*color9:                          #6666cc
+!*color9:                          #ab4642
 
 !! green dark/light
-*color2:                          #7E807E
-*color10:                         #8D8F8D
+*color2:                          #82ff80
+!*color2:                          #7E807E
+*color10:                         #82ff80
+!*color10:                         #8D8F8D
 
 !! yellow dark/light
-*color3:                          #f7ca88
-*color11:                         #f7ca88
+*color3:                          #6be6cb
+!*color3:                          #f7ca88
+*color11:                         #6be6cb
+!*color11:                         #f7ca88
 
 !! blue dark/light
-*color4:                          #7cafc2
-*color12:                         #7cafc2
+!*color4:                          #7cafc2
+*color4:                          #72afff
+*color12:                         #72afff
+!*color12:                         #7cafc2
 
 !! magenta dark/light
 *color5:                          #ba8baf
@@ -57,7 +74,10 @@ XTerm*selectToClipboard: true
 Xcursor.theme: xcursor-breeze
 Xcursor.size:                     0
 
-URxvt.font:                       9x15,xft:TerminessTTFNerdFontMono
+!URxvt.font:                       9x15,xft:TerminessTTFNerdFontMono
+URxvt.font:			   xft:Ubuntu Mono:pixelsize=17,style=regular
+URxvt.boldFont:			   xft:Ubuntu Mono:pixelsize=17,style=bold
+URxvt.letterSpace:		   -1
 
 ! alternative font settings with 'terminus':
 ! URxvt.font:      -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
@@ -65,7 +85,9 @@ URxvt.font:                       9x15,xft:TerminessTTFNerdFontMono
 !! terminus names see end of file!
 
 URxvt.depth:                      32
-URxvt.background:                 [100]#222D31
+URxvt.background:                 [75]#0b2545
+URxvt.foreground:                 #8aeff4
+!URxvt.background:                 [100]#222D31
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false
 URxvt*cursorBlink:                true
