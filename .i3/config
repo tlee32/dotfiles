@@ -2,7 +2,7 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
-set $mod Mod1
+set $mod Mod4
 
 # set default desktop layout (default is tiling)
 # workspace_layout tabbed <stacking|tabbed>
@@ -142,9 +142,9 @@ bindsym $mod+Ctrl+Left workspace prev
 # to display names or symbols instead of plain workspace numbers you can use
 # something like: set $ws1 1:mail
 #                 set $ws2 2:
-set $ws1 1
-set $ws2 2
-set $ws3 3
+set $ws1 1:_>
+set $ws2 2:Web
+set $ws3 3:Chat
 set $ws4 4
 set $ws5 5
 set $ws6 6
@@ -283,13 +283,20 @@ exec --no-startup-id clipit
 # exec_always --no-startup-id sbxkb
 exec --no-startup-id start_conky_maia
 # exec --no-startup-id start_conky_green
-exec --no-startup-id xautolock -time 10 -locker blurlock
+# exec --no-startup-id xautolock -time 10 -locker blurlock
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 
 # TL START UP SCRIPTS:
-exec --no-startup-id xmodmap ~/.xmodmaprc
-exec --no-startup-id exec --no-startup-id i3-msg 'workspace 1:Terminal; exec terminal; workspace 2:Web; exec /usr/bin/google-chrome-stable; workspace 1'
+#exec --no-startup-id xmodmap ~/.xmodmaprc
+#exec --no-startup-id exec --no-startup-id i3-msg 'workspace 1:Terminal; exec terminal; workspace 2:Web; exec /usr/bin/google-chrome-stable; workspace 1'
+assign [class="Google-chrome"] $ws2
+assign [class="Caprine"] $ws3
+exec --no-startup-id i3-msg 'workspace 1:_>; exec terminal'
+exec --no-startup-id google-chrome-stable 
+exec --no-startup-id caprine-2.17.0-x86_64.AppImage
+#exec --no-startup-id i3-msg 'workspace 3:Web; exec google-chrome-stable'
+#exec --no-startup-id caprine-2.17.0-x86_64.AppImage
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
