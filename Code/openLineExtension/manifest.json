@@ -1,0 +1,11 @@
+{
+    "name":"Open Line Extension On Startup",
+    "version": "1.0",
+    "permissions": ["management"],
+    "background": {
+        "scripts": ["openLineExtension.js"],
+        "persistent": false
+    },
+    "manifest_version": 2
+}
+

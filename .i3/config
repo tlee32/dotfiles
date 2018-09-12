@@ -290,8 +290,10 @@ exec_always --no-startup-id fix_xcursor
 # TL START UP SCRIPTS:
 #exec --no-startup-id xmodmap ~/.xmodmaprc
 #exec --no-startup-id exec --no-startup-id i3-msg 'workspace 1:Terminal; exec terminal; workspace 2:Web; exec /usr/bin/google-chrome-stable; workspace 1'
-assign [class="Google-chrome"] $ws2
+assign [instance="google-chrome"] $ws2
 assign [class="Caprine"] $ws3
+#for_window [class="crx_oggmnmedeeogieaohhldbeofjoippcnn"] move container to workspace $ws3
+assign [instance="crx_oggmnmedeeogieaohhldbeofjoippcnn"] $ws3
 exec --no-startup-id i3-msg 'workspace 1:_>; exec terminal'
 exec --no-startup-id google-chrome-stable 
 exec --no-startup-id caprine-2.17.0-x86_64.AppImage
