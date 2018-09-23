@@ -7,6 +7,7 @@ INFO:
 * reload .Xresources = xrdb ~/.Xresources
 * to add a monitor just run `arandr` to activate and position!
 * to open an app but hide the terminal - put it in background if you set it wrong the first time you can update it under .confg/dmenu-recent
+* To make the mouse natural scrolling, follow this: https://gist.github.com/chriscandy/c8970f7392e102938456
 
 HOW I GOT LINE CHROME EXTENSION TO OPEN ON STARTUP:
 1. wrote chrome app located ~/Code/openLineExtension
