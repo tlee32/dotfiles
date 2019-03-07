@@ -4,6 +4,7 @@ CHANGES:
 
 INFO:
 
+* upgrade chrome: `yaourt -S google-chrome`
 * reload .Xresources = xrdb ~/.Xresources
 * to add a monitor just run `arandr` to activate and position!
 * to open an app but hide the terminal - put it in background if you set it wrong the first time you can update it under .confg/dmenu-recent
